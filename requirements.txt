@@ -1,0 +1,42 @@
+# Object Detection Project Requirements
+# Python 3.8+
+
+# Core Object Detection
+ultralytics>=8.0.0          # YOLO models and inference
+torch>=2.0.0                # Deep learning framework
+torchvision>=0.15.0         # Computer vision utilities
+torchaudio>=2.0.0           # Audio processing (optional)
+
+# Image and Video Processing
+opencv-python>=4.8.0        # Computer vision library
+Pillow>=9.0.0               # Image processing
+imageio>=2.9.0              # Image I/O
+imageio-ffmpeg>=0.4.8       # Video codec support
+
+# Data Processing
+numpy>=1.21.0               # Numerical computing
+pandas>=1.3.0               # Data manipulation
+scipy>=1.7.0                # Scientific computing
+
+# Visualization
+matplotlib>=3.4.0           # Plotting and visualization
+seaborn>=0.11.0             # Statistical visualization
+
+# Jupyter & Development
+jupyter>=1.0.0              # Jupyter notebooks
+jupyterlab>=3.0.0           # JupyterLab
+ipywidgets>=7.6.0           # Interactive widgets
+ipykernel>=6.0.0            # IPython kernel
+
+# Model Management
+pyyaml>=5.4.1               # YAML parsing
+tqdm>=4.62.0                # Progress bars
+
+# Optional: GPU Support (uncomment if needed)
+# cuda-toolkit==11.8          # NVIDIA CUDA (if not installed separately)
+# cudatoolkit==11.8           # Alternative for conda
+
+# Optional: Additional Tools
+psutil>=5.8.0               # System utilities
+requests>=2.26.0            # HTTP library
+pyzbar>=0.1.8               # Barcode detection (optional)
